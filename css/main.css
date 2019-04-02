@@ -1,0 +1,899 @@
+
+/***
+ *
+ *This styles are applied to all default elements in all pages
+ *created in this websute project
+ *
+ ***/
+
+
+
+
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	background: none;
+	text-decoration: none;
+}
+
+body {
+	background: -webkit-radial-gradient(circle, #F5F5F5, #999999);
+	background: -moz-radial-gradient(circle, #F5F5F5, #999999);
+	background: -o-radial-gradient(circle, #F5F5F5, #999999);
+	background: radial-gradient(circle, #F5F5F5, #999999);
+}
+
+
+@media screen and (min-width: 1060px) {
+
+	.upper_main_header {
+		height: 120px;
+		width: 100%;
+		margin: 0;
+		background: -webkit-radial-gradient(circle, #0066CC, #003366);
+		background: -moz-radial-gradient(circle, #0066CC, #003366);
+		background: -o-radial-gradient(circle, #0066CC, #003366);
+		background: radial-gradient(circle, #0066CC, #003366);
+	}
+
+	.upper_main_header .upper_header {
+		width: 40%;
+		float: left;
+	}
+
+	.upper_header .header {
+		margin: 20px 0 18px 30px;
+	}
+
+	.header .title_name {
+		font-size: 2.2em;
+		font-family: Calisto MT;
+		color: #000C19;
+		text-shadow: 1px 1px 1px #F9F9F9;
+	}
+
+	.header .title_tm {
+		font-size: 1.2em;
+		font-family: ;
+		color: #00B200;
+		text-shadow: ;
+	}
+
+	.upper_main_header .navigation-panel {
+		width: 60%;
+		float: left;
+	}
+
+	.navigation-panel .right_navbar {
+
+	}
+
+	.right_navbar .nav-bar {
+
+	}
+
+	.nav-bar .container {
+		width: 80%;
+		margin: 12px auto ;
+	}
+
+	.nav-bar .container ul.main_list {
+		margin: 68px auto;
+	}
+
+	.nav-bar .container ul.main_list > li {
+		position: relative;
+		float: left;
+		width: 20%;
+	}
+
+	.nav-bar .container ul.main_list > li  a {
+		border-top: 1px solid #AABBCC;
+	}
+
+	.nav-bar .container ul.main_list > li a:hover {
+		border-top: 3px solid #AABBCC;
+	}
+
+	.nav-bar .container ul.main_list li.top > a {
+		display: block;
+		width: 92%;
+		height: 24px;
+		color: #4EEE94;
+		padding-top: 4px;
+		text-align: center;
+		margin: 0 12px;
+		
+	}
+
+	.nav-bar .container ul.inner_list {
+		margin-top: 18px;
+		display: none;
+		position: absolute;
+		top: 20px;
+		left: 0;
+	}
+
+	.nav-bar .container ul.inner_list li {
+		border-radius: 3px;		
+	}
+
+	.nav-bar .container ul.inner_list a {
+		margin-top: 3px;
+		background: #0E4178;
+		border: 1px solid #F0F0F0;
+	}
+
+	.nav-bar .container ul.main_list li:hover > a {
+		cursor: pointer;
+	}
+
+	.nav-bar ul.main_list ul.inner_list_2 {
+		position: absolute;
+		top: 0;
+		left: 120px;
+	}
+
+	.nav-bar .container ul.main_list li:hover > .inner_list {
+		display: block;
+	}
+
+
+
+
+
+
+	/*****
+	**  
+	**	 Styles applied to lower navigation toolbar
+	**	 Bread Crumbs can be applied here
+	**
+	**
+	*******/
+
+	.nav_bar {
+		width: 100%;
+		height: 48px;
+		box-shadow: 0 1px 5px 0 #191919;
+		background: -webkit-radial-gradient(circle, #009900, #006600);
+		background: -moz-radial-gradient(circle, #009900, #006600);
+		background: -o-radial-gradient(circle, #009900, #006600);
+		background: radial-gradient(circle, #009900, #006600);
+	}
+
+	.nav_bar .lower_bar {
+		width: 100%;
+	}
+
+	.lower_bar .title {
+		margin: 8px 0 8px 10%;
+		width: 30%;
+		float: left;
+	}
+
+	.lower_bar .title h3 {
+		color: ;
+		font-family: ;
+		font-size: 1.2em;
+	}
+
+
+	/*****************************
+	**
+	**	Styles applied to the image slider
+	**
+	**
+	**/
+
+
+	/*******************
+	*** =====================================================
+	*** =====================================================
+	***
+	*** The styles applied here are from a SoftWare product However,
+	*** any Custom Changes can be applied here
+	***
+	*** ======================================================
+	*** ======================================================
+	********************/
+
+	.main_section .article_1 .slider {
+		margin-top: 8px;
+	}
+
+	.slider .slider_container {
+		box-shadow: 1px 1px 3px 2px #111111;
+	}
+	/*
+	================================
+	End of Image Slider Styles
+	================================
+	*/
+
+
+
+
+
+
+
+	/************************
+	**	
+	**	This are styles applied to content after the image slideshow
+	**	
+	**
+	**
+	*************************/
+
+	.container #upper_line_1 {
+		width: 92%;
+		color: #F9F9F9;
+		margin: 20px auto 8px auto;
+	}
+
+	.container .left_main_col,
+	.container .right_side_col {
+		margin-top: 20px;
+	}
+
+	.container .left_main_col .article_2,
+	.container .right_side_col .article_3 {
+		width: 90%;
+		margin: 12px auto;
+	}
+
+	.right_side_col .container div.sub_article {
+		border-left: 1px dotted #B1B1B1;
+		margin: 0 0 10px 0px;
+		padding-left: 12px;
+	}
+
+	.right_side_col div.sub_article h4 {
+		color: #009900;
+		margin-bottom: 8px;
+	}
+
+	.right_side_col div.sub_article p {
+		color: #4C4C4C;
+	}
+
+	.left_main_col div.sub_article {
+		margin-bottom: 12px;
+	}
+
+	.left_main_col div.sub_article h3 {
+		color: #00B300;
+	}
+
+	.left_main_col div.sub_article p {
+		color: #4C4C4C;
+	}
+
+
+	/************************************
+	***
+	***	
+	***	Styles applied to the footer of 
+	***	the website
+	***
+	**************************************/
+
+
+	.b_footer .top_footer {
+		margin: 30px 0;
+	}
+
+	.b_footer .top_footer .wrapper{
+		background: -webkit-radial-gradient(circle, #009900, #006600);
+		background: -moz-radial-gradient(circle, #009900, #006600);
+		background: -o-radial-gradient(circle, #009900, #006600);
+		background: radial-gradient(circle, #009900, #006600);
+		box-shadow: 1px 0 5px 0 #191919;
+	}
+
+	.top_footer .wrapper .container {
+		margin-left: 36px;
+	}
+
+	.top_footer .wrapper .span4 {
+		margin: 30px 0;
+	}
+
+	.top_footer .wrapper .foot1 {
+		margin-left: 50px;
+	}
+
+	.top_footer .wrapper .container h4 {
+		color: #001933;
+		margin-bottom: 8px;
+		font-size: 1.3em;
+		font-family: FrankRuehl;
+	}
+
+	.top_footer .wrapper .container span {
+		margin-bottom: 2px;
+		color: #191919;
+		font-size: 16px;
+		font-family: Calisto MT;
+	}
+
+	.top_footer .wrapper .container span > a {
+		color: #262626;
+		font-size: 16px;
+		font-family: Calisto MT;
+	}
+
+	.top_footer .wrapper .container span > a:visited {
+		color: #262626;
+	}
+
+	.top_footer .wrapper .container span > a:hover {
+		color: #0C0C0C;
+	}
+
+	.b_footer .bottom_footer {
+		margin: auto;
+	}
+
+	.b_footer .bottom_footer .container {
+		background: -webkit-radial-gradient(circle, #0066CC, #003366);
+		background: -moz-radial-gradient(circle, #0066CC, #003366);
+		background: -o-radial-gradient(circle, #0066CC, #003366);
+		background: radial-gradient(circle, #0066CC, #003366);
+	}
+
+	.bottom_footer .container .wrapper {
+		margin: 24px 40px;
+	}
+
+
+	/**********************************************************
+	***********************************************************/
+
+	
+
+
+
+	/***
+	**
+	** These Styles are applied to the Logistics Page
+	** 
+	**
+	***/
+
+	.container .article_2 {
+		margin: 6px auto;
+	}
+
+	.article_2 .wrapper {
+		margin: 4px 30px 4px 60px;
+	}
+
+	.article .wrapper div.header {
+		width: 80%;
+		float: left;
+	}
+
+	.article_2 .wrapper div.header > h2 {
+		color: #00B19A ;
+		padding: 8px 14px;
+		margin: 20px 10px;
+		background: #F9F9F9;
+		font-family: Euphemia;
+		box-shadow: 2px 2px 4px 3px #4C4C4C;
+	}
+
+	.article_2 .wrapper .article {
+		margin: 4px 0;
+	}
+
+	.wrapper .article .container {
+		margin: 0 10px;
+		background: #F7F7F7;
+		box-shadow: 2px 2px 4px 2px #191919;
+	}
+
+	.wrapper .article .image {
+		overflow: hidden;
+	}
+
+	.wrapper .article .image > img {
+		width: 100%;
+		border: none 0;
+		max-width: none;
+	}
+
+	.wrapper .span6 {
+		position: relative;
+		height: 100%;
+		box-sizing: content-box;
+	}
+
+	.wrapper .span3 {
+		height: 100%;
+		position: relative;
+		box-sizing: content-box;
+	}
+
+	.wrapper .article .sub_article {
+		margin: 10px 8px;
+		padding: 12px 12px;
+	}
+
+	.wrapper .article .sub_article h3 {
+		color: #003366;
+		font-family: Century Gothic;
+	}
+
+	.wrapper .article .sub_article p,
+	.wrapper .article .sub_article .sub_list {
+		color: #191919;
+		font-size: 18px;
+		font-family: 'Corbel';
+	}
+
+	.wrapper .article .sub_article .sub_list {
+		margin: 8px 0 4px 28px;
+	}
+
+	.wrapper .article .sub_article .sub_list li{
+		list-style: numbered;
+	}
+
+	/*==> End of Styles of Services ==>*/
+
+
+
+
+	/****
+	***
+	***	Styles applied to Contacts page
+	***	
+	***
+	*****/
+
+
+	.main_section .cont {
+		margin-top: 36px;
+		color: #191919;
+		font-family: Century Gothic;
+	}
+
+}
+
+/**==> End of Media Screen 1080px <==**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****
+***
+***
+***	===> Start of Media Screen 720+px <===
+***
+***
+******/
+
+
+
+@media screen and (min-width: 720px) {
+
+	.upper_main_header {
+		height: 120px;
+		width: 100%;
+		margin: 0;
+		background: -webkit-radial-gradient(circle, #0066CC, #003366);
+		background: -moz-radial-gradient(circle, #0066CC, #003366);
+		background: -o-radial-gradient(circle, #0066CC, #003366);
+		background: radial-gradient(circle, #0066CC, #003366);
+	}
+
+	.upper_main_header .upper_header {
+		width: 50%;
+		float: left;
+	}
+
+	.upper_header .header {
+		margin: 20px 0 18px 30px;
+	}
+
+	.header .title_name {
+		font-size: 1.8.em;
+		font-family: Garamond;
+		color: #000C19;
+		text-shadow: 1px 1px 1px #F9F9F9;
+	}
+
+	.header .title_tm {
+		font-size: 1.0em;
+		font-family: ;
+		color: #00B200;
+		text-shadow: ;
+	}
+
+	.upper_main_header .navigation-panel {
+		width: 50%;
+		float: left;
+	}
+
+	.nav-bar .container {
+		width: 80%;
+		margin: 12px auto ;
+	}
+
+	.nav-bar .container ul.main_list {
+		margin: 68px auto;
+	}
+
+	.nav-bar .container ul.main_list > li {
+		position: relative;
+		float: left;
+		width: 20%;
+	}
+
+	.nav-bar .container ul.main_list > li  a {
+		border-top: 1px solid #AABBCC;
+	}
+
+	.nav-bar .container ul.main_list > li a:hover {
+		border-top: 3px solid #AABBCC;
+	}
+
+	.nav-bar .container ul.main_list li.top > a {
+		display: block;
+		width: 92%;
+		height: 24px;
+		color: #4EEE94;
+		padding-top: 4px;
+		text-align: center;
+		margin: 0 12px;
+		
+	}
+
+	.nav-bar .container ul.main_list li:hover > a {
+		cursor: pointer;
+	}
+
+	.nav-bar .container ul.main_list li:hover > .inner_list {
+		display: block;
+	}
+
+
+
+
+
+
+	/*****
+	**  
+	**	 Styles applied to lower navigation toolbar
+	**	 Bread Crumbs can be applied here
+	**
+	**
+	*******/
+
+	.nav_bar {
+		width: 100%;
+		height: 48px;
+		box-shadow: 0 1px 5px 0 #191919;
+		background: -webkit-radial-gradient(circle, #009900, #006600);
+		background: -moz-radial-gradient(circle, #009900, #006600);
+		background: -o-radial-gradient(circle, #009900, #006600);
+		background: radial-gradient(circle, #009900, #006600);
+	}
+
+	.nav_bar .lower_bar {
+		width: 100%;
+	}
+
+	.lower_bar .title {
+		margin: 8px 0 8px 10%;
+		width: 30%;
+		float: left;
+	}
+
+	.lower_bar .title h3 {
+		color: ;
+		font-family: ;
+		font-size: 1.2em;
+	}
+
+
+	/*****************************
+	**
+	**	Styles applied to the image slider
+	**
+	**
+	**/
+
+
+	/*******************
+	*** =====================================================
+	*** =====================================================
+	***
+	*** The styles applied here are from a SoftWare product However,
+	*** any Custom Changes can be applied here
+	***
+	*** ======================================================
+	*** ======================================================
+	********************/
+
+	.main_section .article_1 .slider {
+		margin-top: 8px;
+	}
+
+	.slider .slider_container {
+		box-shadow: 1px 1px 3px 2px #111111;
+	}
+	/*
+	================================
+	End of Image Slider Styles
+	================================
+	*/
+
+
+
+
+
+
+
+	/************************
+	**	
+	**	This are styles applied to content after the image slideshow
+	**	
+	**
+	**
+	*************************/
+
+	.container #upper_line_1 {
+		width: 92%;
+		color: #F9F9F9;
+		margin: 20px auto 8px auto;
+	}
+
+	.container .left_main_col,
+	.container .right_side_col {
+		margin-top: 20px;
+	}
+
+	.container .left_main_col .article_2,
+	.container .right_side_col .article_3 {
+		width: 90%;
+		margin: 12px auto;
+	}
+
+	.right_side_col .container div.sub_article {
+		border-left: 1px dotted #B1B1B1;
+		margin: 0 0 10px 0px;
+		padding-left: 12px;
+	}
+
+	.right_side_col div.sub_article h4 {
+		color: #009900;
+		margin-bottom: 8px;
+	}
+
+	.right_side_col div.sub_article p {
+		color: #4C4C4C;
+	}
+
+	.left_main_col div.sub_article {
+		margin-bottom: 12px;
+	}
+
+	.left_main_col div.sub_article h3 {
+		color: #00B300;
+	}
+
+	.left_main_col div.sub_article p {
+		color: #4C4C4C;
+	}
+
+
+	/************************************
+	***
+	***	
+	***	Styles applied to the footer of 
+	***	the website
+	***
+	**************************************/
+
+
+	.b_footer .top_footer {
+		margin: 30px 0;
+	}
+
+	.b_footer .top_footer .wrapper{
+		background: -webkit-radial-gradient(circle, #009900, #006600);
+		background: -moz-radial-gradient(circle, #009900, #006600);
+		background: -o-radial-gradient(circle, #009900, #006600);
+		background: radial-gradient(circle, #009900, #006600);
+		box-shadow: 1px 0 5px 0 #191919;
+	}
+
+	.top_footer .wrapper .container {
+		margin-left: 36px;
+	}
+
+	.top_footer .wrapper .span4 {
+		margin: 30px 0;
+	}
+
+	.top_footer .wrapper .foot1 {
+		margin-left: 50px;
+	}
+
+	.top_footer .wrapper .container h4 {
+		color: #001933;
+		margin-bottom: 8px;
+		font-size: 1.3em;
+		font-family: FrankRuehl;
+	}
+
+	.top_footer .wrapper .container span {
+		margin-bottom: 2px;
+		color: #191919;
+		font-size: 16px;
+		font-family: Calisto MT;
+	}
+
+	.top_footer .wrapper .container span > a {
+		color: #262626;
+		font-size: 16px;
+		font-family: Calisto MT;
+	}
+
+	.top_footer .wrapper .container span > a:visited {
+		color: #262626;
+	}
+
+	.top_footer .wrapper .container span > a:hover {
+		color: #0C0C0C;
+	}
+
+	.b_footer .bottom_footer {
+		margin: auto;
+	}
+
+	.b_footer .bottom_footer .container {
+		background: -webkit-radial-gradient(circle, #0066CC, #003366);
+		background: -moz-radial-gradient(circle, #0066CC, #003366);
+		background: -o-radial-gradient(circle, #0066CC, #003366);
+		background: radial-gradient(circle, #0066CC, #003366);
+	}
+
+	.bottom_footer .container .wrapper {
+		margin: 24px 40px;
+	}
+
+
+	/**********************************************************
+	***********************************************************/
+
+	
+
+
+
+	/***
+	**
+	** These Styles are applied to the Logistics Page
+	** 
+	**
+	***/
+
+	.container .article_2 {
+		margin: 6px auto;
+	}
+
+	.article_2 .wrapper {
+		margin: 4px 30px 4px 60px;
+	}
+
+	.article .wrapper div.header {
+		width: 80%;
+		float: left;
+	}
+
+	.article_2 .wrapper div.header > h2 {
+		color: #00B19A ;
+		padding: 8px 14px;
+		margin: 20px 10px;
+		background: #F9F9F9;
+		font-family: Euphemia;
+		box-shadow: 2px 2px 4px 3px #4C4C4C;
+	}
+
+	.article_2 .wrapper .article {
+		margin: 4px 0;
+	}
+
+	.wrapper .article .container {
+		margin: 0 10px;
+		background: #F7F7F7;
+		box-shadow: 2px 2px 4px 2px #191919;
+	}
+
+	.wrapper .article .image {
+		overflow: hidden;
+	}
+
+	.wrapper .article .image > img {
+		width: 100%;
+		border: none 0;
+		max-width: none;
+	}
+
+	.wrapper .span6 {
+		position: relative;
+		height: 100%;
+		box-sizing: content-box;
+	}
+
+	.wrapper .span3 {
+		height: 100%;
+		position: relative;
+		box-sizing: content-box;
+	}
+
+	.wrapper .article .sub_article {
+		margin: 10px 8px;
+		padding: 12px 12px;
+	}
+
+	.wrapper .article .sub_article h3 {
+		color: #003366;
+		font-family: Century Gothic;
+	}
+
+	.wrapper .article .sub_article p,
+	.wrapper .article .sub_article .sub_list {
+		color: #191919;
+		font-size: 18px;
+		font-family: 'Corbel';
+	}
+
+	.wrapper .article .sub_article .sub_list {
+		margin: 8px 0 4px 28px;
+	}
+
+	.wrapper .article .sub_article .sub_list li{
+		list-style: numbered;
+	}
+
+	/*==> End of Styles of Services ==>*/
+
+
+
+
+	/****
+	***
+	***	Styles applied to Contacts page
+	***	
+	***
+	*****/
+
+
+	.main_section .cont {
+		margin-top: 36px;
+		color: #191919;
+		font-family: Century Gothic;
+	}
+
+}

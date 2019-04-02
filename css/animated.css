@@ -1,0 +1,62 @@
+
+@-webkit-keyframes mySlide_left {
+	0% {
+		left: 20px;
+	}
+
+	55% {
+		left: 60px;
+	}
+
+	80% {
+		left: 10px;
+	}
+
+	88% {
+		left: 30px;
+	}
+
+	94% {
+		left: 35px;
+	}
+
+	97% {
+		left: 15px;
+	}
+
+	100% {
+		left: 0;
+	}
+}
+
+
+@keyframes mySlide_left {
+	0% {
+		left: 400px;
+	}
+
+	50% {
+		left: -60px;
+	}
+
+	70% {
+		left: 70px;
+	}
+
+	88% {
+		left: -20px;
+	}
+
+	100% {
+		left: 0;
+	}
+}
+
+.slide_left {
+	position: relative;
+	-webkit-animation: mySlide_left 2s 1;
+	-moz-animation: mySlide_left 2s 1;
+	animation: mySlide_left 2s 1;
+}
+
+@keyframes

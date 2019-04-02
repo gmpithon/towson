@@ -1,0 +1,59 @@
+.span12 {
+	float: left;
+	width: 100%;
+}
+
+.span11 {
+	float: left;
+	width: 91.66666666667%;
+}
+
+.span10 {
+	float: left;
+	width: 83.33333333333%;
+}
+
+.span9 {
+	float: left;
+	width: 75%;
+}
+
+.span8 {
+	float: left;
+	width: 66.66666666667%;
+}
+
+.span7 {
+	float: left;
+	width: 58.33333333333%;
+}
+
+.span6 {
+	float: left;
+	width: 50%;
+}
+
+.span5 {
+	float: left;
+	width: 41.66666666667%;
+}
+
+.span4 {
+	float: left;
+	width: 33.3333333333%;
+}
+
+.span3 {
+	float: left;
+	width: 25%;
+}
+
+.span2 {
+	float: left;
+	width: 16.666666667%;
+}
+
+.span1 {
+	float: left;
+	width: 8.3333333333%;
+}
